@@ -59,10 +59,20 @@ building_acrebalanced_tier1 = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = yes }					
+			owner = { is_machine_empire = yes }					
 		}
 		modifier = {
       job_head_coordinator_add = 3
+		}
+	}
+
+		triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }					
+		}
+		modifier = {
+      job_concious_drone_add = 3
 		}
 	}
 	
@@ -77,9 +87,17 @@ building_acrebalanced_tier1 = {
 	triggered_desc = {
 		trigger = {
 			exists = owner
-			owner = { is_gestalt = yes }
+			owner = { is_machine_empire = yes }
 		}
 		text = job_head_coordinator_effect_desc
+	}	
+
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_concious_drone_effect_desc
 	}	
 }
                                               
@@ -139,13 +157,23 @@ building_acrebalanced_tier2 = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = yes }					
+			owner = { is_machine_empire = yes }					
 		}
 		modifier = {
       job_head_coordinator_add = 6
 		}
 	}
 	
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }					
+		}
+		modifier = {
+      job_concious_drone_add = 6
+		}
+	}
+
 		triggered_desc = {
 		trigger = {
 			exists = owner
@@ -157,9 +185,17 @@ building_acrebalanced_tier2 = {
 	triggered_desc = {
 		trigger = {
 			exists = owner
-			owner = { is_gestalt = yes }
+			owner = { is_machine_empire = yes }
 		}
 		text = job_head_coordinator_effect_desc
+	}	
+
+		triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_concious_drone_effect_desc
 	}	
 }
 
@@ -221,10 +257,20 @@ building_acrebalanced_tier3 = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = yes }					
+			owner = { is_machine_empire = yes }					
 		}
 		modifier = {
       job_head_coordinator_add = 10
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }					
+		}
+		modifier = {
+      job_concious_drone_add = 10
 		}
 	}
 	
@@ -239,9 +285,17 @@ building_acrebalanced_tier3 = {
 	triggered_desc = {
 		trigger = {
 			exists = owner
-			owner = { is_gestalt = yes }
+			owner = { is_machine_empire = yes }
 		}
 		text = job_head_coordinator_effect_desc
+	}	
+		
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_concious_drone_effect_desc
 	}	
 }
 
@@ -299,10 +353,20 @@ building_acrebalanced_tier4 = {
 	triggered_planet_modifier = {
 		potential = {
 			exists = owner
-			owner = { is_gestalt = yes }					
+			owner = { is_machine_empire = yes }					
 		}
 		modifier = {
           job_head_coordinator_add = 16
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_hive_empire = yes }					
+		}
+		modifier = {
+          job_concious_drone_add = 16
 		}
 	}
 	
@@ -317,8 +381,16 @@ building_acrebalanced_tier4 = {
 	triggered_desc = {
 		trigger = {
 			exists = owner
-			owner = { is_gestalt = yes }
+			owner = { is_machine_empire = yes }
 		}
 		text = job_head_coordinator_effect_desc
+	}	
+
+		triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_hive_empire = yes }
+		}
+		text = job_concious_drone_effect_desc
 	}	
 }

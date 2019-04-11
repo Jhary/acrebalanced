@@ -46,5 +46,13 @@ edict_census_acrebalanced_edict1_desc:0 "Drastically reduces the negative effect
  mod_job_head_coordinator_per_pop:0 "§G+1§! $job_head_coordinator$ Job per $VALUE$ Pops"
  mod_job_head_coordinator_per_pop_short:0 "\n§G+1§! £mod_job_head_coordinator_add£ per $VALUE$ £pop£"
  
+ job_concious_drone:0 "Concious Drone"
+ job_concious_drone_plural:0 "Concious Drone"
+ job_concious_drone_desc:0 "Todo"
+ job_concious_drone_effect_desc:0 "£job_concious_drone£ $job_concious_drone_plural$ produce\n§G+3§! £unity£ §Y$unity$§! and\n§G+1§! £mod_country_admin_cap_add£ §YAdministrative Cap§!"
+ mod_job_concious_drone_add:0 "$job_concious_drone$ Jobs"
+ mod_job_concious_drone_per_pop:0 "§G+1§! $job_concious_drone$ Job per $VALUE$ Pops"
+ mod_job_concious_drone_per_pop_short:0 "\n§G+1§! £mod_job_concious_drone_add£ per $VALUE$ £pop£"
+
  col_admin:0 "Administration World"
  col_admin_desc:1 "This planet is an administrative coordination center of your empire."

@@ -45,3 +45,14 @@ edict_census_acrebalanced_edict1_desc:0 "Reduziert drastisch die negativen Auswi
  mod_job_head_coordinator_add:0 "$job_head_coordinator$ Jobs"
  mod_job_head_coordinator_per_pop:0 "§G+1§! $job_head_coordinator$ Job pro $VALUE$ Pops"
  mod_job_head_coordinator_per_pop_short:0 "\n§G+1§! £mod_job_head_coordinator_add£ pro $VALUE$ £pop£"
+
+job_concious_drone:0 "Concious Drone"
+ job_concious_drone_plural:0 "Concious Drone"
+ job_concious_drone_desc:0 "Todo"
+ job_concious_drone_effect_desc:0 "£job_concious_drone£ $job_concious_drone_plural$ produzieren\n§G+3§! £unity£ §Y$unity$§! und\n§G+1§! £mod_country_admin_cap_add£ §YAdministrative Cap§!"
+ mod_job_concious_drone_add:0 "$job_concious_drone$ Jobs"
+ mod_job_concious_drone_per_pop:0 "§G+1§! $job_concious_drone$ Job pro $VALUE$ Pops"
+ mod_job_concious_drone_per_pop_short:0 "\n§G+1§! £mod_job_concious_drone_add£ pro $VALUE$ £pop£"
+
+ col_admin:0 "Verwaltungswelt"
+ col_admin_desc:1 "Dieser Planet ist ein Verwaltungszentrum deines Imperiums."
