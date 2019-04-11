@@ -1,7 +1,8 @@
 #Admin Cap Rebalanced Constants
 @ADMINCAP_PER_ADMIN = 1
+@UNITY_PER_ADMIN = 0.5
 @ADMINCAP_PER_COORDINATOR = 1
-
+@UNITY_PER_COORDINATOR = 0.5
 
 head_administrator ={
 	category = ruler
@@ -17,9 +18,9 @@ head_administrator ={
 	resources = {
 		category = planet_administrators
 		produces = {
-			unity = 4
+			unity = @UNITY_PER_ADMIN
 		}
-    upkeep = {
+		upkeep = {
 			consumer_goods = 2
 		}
 	}
@@ -98,7 +99,7 @@ head_coordinator = {
 	resources = {
 		category = planet_jobs
 		produces = {
-			unity = 3 
+			unity = @UNITY_PER_COORDINATOR 
 		}
 		upkeep = {
 			energy = 4

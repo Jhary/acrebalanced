@@ -31,7 +31,7 @@ tech_building_acrebalanced_tier1 = {
 		}
 	}
 	modifier = {
-		country_admin_cap_add = 5
+		#country_admin_cap_add = 5
 	}  
 }
 
@@ -70,7 +70,7 @@ tech_building_acrebalanced_tier2 = {
 		}
 	}
 	modifier = {
-		country_admin_cap_add = 5
+		#country_admin_cap_add = 5
 	}
 }
 tech_building_acrebalanced_tier3 = {
@@ -108,7 +108,7 @@ tech_building_acrebalanced_tier3 = {
 		}
 	}
 	modifier = {
-		country_admin_cap_add = 5
+		#country_admin_cap_add = 5
 	}
 }
 tech_building_acrebalanced_tier4 = {
@@ -124,6 +124,6 @@ tech_building_acrebalanced_tier4 = {
 		factor = 1.5
   }
 	modifier = {
-		country_admin_cap_add = 5
+		#country_admin_cap_add = 5
 	}
 }

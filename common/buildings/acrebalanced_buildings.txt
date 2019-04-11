@@ -99,7 +99,7 @@ building_acrebalanced_tier2 = {
 	}
 
 	allow = {
-		has_major_upgraded_capital = yes
+		has_upgraded_capital = yes
 	}
 
 	upgrades = {
@@ -179,7 +179,7 @@ building_acrebalanced_tier3 = {
 	} 
 
 	allow = {
-		has_fully_upgraded_capital = yes
+		has_major_upgraded_capital = yes
 	}
 
 	upgrades = {

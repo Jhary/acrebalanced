@@ -45,3 +45,6 @@ edict_census_acrebalanced_edict1_desc:0 "Drastically reduces the negative effect
  mod_job_head_coordinator_add:0 "$job_head_coordinator$ Jobs"
  mod_job_head_coordinator_per_pop:0 "§G+1§! $job_head_coordinator$ Job per $VALUE$ Pops"
  mod_job_head_coordinator_per_pop_short:0 "\n§G+1§! £mod_job_head_coordinator_add£ per $VALUE$ £pop£"
+ 
+ col_admin:0 "Administration World"
+ col_admin_desc:1 "This planet is an administrative coordination center of your empire."

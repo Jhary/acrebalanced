@@ -1,0 +1,32 @@
+# Administration Planet
+col_admin = {
+# 2 = Miner
+	icon = 1
+	
+	potential = {
+		exists = owner
+	}
+	
+	planet_modifier = {
+		job_head_administrator_per_pop = 0.1
+	}
+
+	weight_modifier = {
+		modifier = {
+			add = 4 
+			has_building = building_acrebalanced_tier1
+		}
+		modifier = {
+			add = 6
+			has_building = building_acrebalanced_tier2
+		}
+		modifier = {
+			add = 8
+			has_building = building_acrebalanced_tier3
+		}
+		modifier = {
+			add = 16
+			has_building = building_acrebalanced_tier4
+		}	
+	}	
+}
