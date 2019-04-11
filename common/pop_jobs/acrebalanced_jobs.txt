@@ -1,8 +1,12 @@
 #Admin Cap Rebalanced Constants
 @ADMINCAP_PER_ADMIN = 1
 @UNITY_PER_ADMIN = 0.5
+
 @ADMINCAP_PER_COORDINATOR = 1
 @UNITY_PER_COORDINATOR = 0.5
+
+@ADMINCAP_PER_CONCIOUS = 1
+@UNITY_PER_CONCIOUS = 0.5
 
 head_administrator ={
 	category = ruler
@@ -88,6 +92,7 @@ head_coordinator = {
 	condition_string = DRONE_JOB_TRIGGER
 	building_icon = building_machine_capital
 	icon = coordinator
+	
 	possible = {
 		drone_job_check_trigger = yes
 	}	
@@ -133,13 +138,13 @@ concious_drone = {
 	}
 	
 	country_modifier = {
-		country_admin_cap_add = 1
+		country_admin_cap_add = @ADMINCAP_PER_CONCIOUS
 	}
 	
 	resources = {
 		category = planet_jobs
 		produces = {
-			unity = 0.5
+			unity = @UNITY_PER_CONCIOUS
 		}
 		upkeep = {
 			food = 2

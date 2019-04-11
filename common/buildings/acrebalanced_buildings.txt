@@ -37,11 +37,6 @@ building_acrebalanced_tier1 = {
 		}
 	}
 	
-#	country_modifier = {
-#		country_admin_cap_add = 4
-#		empire_size_penalty_mult = 0.01
-#	}
-
 	ai_weight = {
 		weight = 5
 	}
@@ -134,11 +129,6 @@ building_acrebalanced_tier2 = {
       energy = 8
 		}
 	}
-
-#  country_modifier = {
-#    country_admin_cap_add = 16
-#    empire_size_penalty_mult = 0.01
-#  }	
 
 	ai_weight = {
 		weight = 4
@@ -234,11 +224,6 @@ building_acrebalanced_tier3 = {
       energy = 16
 		}
   }
-
-#  country_modifier = {
-#    country_admin_cap_add = 32
-#    empire_size_penalty_mult = 0.01
-#  }	
 	
 	ai_weight = {
 		weight = 2
@@ -332,9 +317,9 @@ building_acrebalanced_tier4 = {
 		}
 	}
 	
-#  country_modifier = {
-#    country_admin_cap_add = 64    
-#  }
+  country_modifier = {  
+		empire_size_penalty_mult = -0.05  
+  }
 
 	ai_weight = {
 		weight = 1

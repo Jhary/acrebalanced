@@ -4,8 +4,10 @@ tech_building_acrebalanced_tier1 = {
   area = society
   tier = 1
   category = { new_worlds }
+	
 	prerequisites = { "tech_planetary_unification" }
-  weight = @tier1weight3
+  
+	weight = @tier1weight3
 	weight_modifier = {
     factor = 4
 		modifier = {
@@ -20,6 +22,7 @@ tech_building_acrebalanced_tier1 = {
 			has_tradition = tr_expansion_adopt
 		}
 	}  
+
   ai_weight = {
 		factor = 1
 		modifier = {
@@ -30,9 +33,6 @@ tech_building_acrebalanced_tier1 = {
 			}
 		}
 	}
-	modifier = {
-		#country_admin_cap_add = 5
-	}  
 }
 
 tech_building_acrebalanced_tier2 = {
@@ -69,10 +69,8 @@ tech_building_acrebalanced_tier2 = {
 			}
 		}
 	}
-	modifier = {
-		#country_admin_cap_add = 5
-	}
 }
+
 tech_building_acrebalanced_tier3 = {
 	cost = @tier3cost1
 	area = society
@@ -107,10 +105,8 @@ tech_building_acrebalanced_tier3 = {
 			}
 		}
 	}
-	modifier = {
-		#country_admin_cap_add = 5
-	}
 }
+
 tech_building_acrebalanced_tier4 = {
 	cost = @tier4cost1
 	area = society
@@ -123,7 +119,4 @@ tech_building_acrebalanced_tier4 = {
 	weight_modifier = {
 		factor = 1.5
   }
-	modifier = {
-		#country_admin_cap_add = 5
-	}
 }
