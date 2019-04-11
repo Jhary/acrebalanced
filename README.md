@@ -1,0 +1,1 @@
+A Stellaris mod that rebalances the administrative capacity mechanic
