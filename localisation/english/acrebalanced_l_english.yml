@@ -29,3 +29,19 @@ tech_building_acrebalanced_tier4_desc:0 "Upgrade: §Y$building_acrebalanced_tier
 
 edict_census_acrebalanced_edict1:0 "Galactic Census"
 edict_census_acrebalanced_edict1_desc:0 "Drastically reduces the negative effects of excessive sprawl."
+
+ job_head_administrator:0 "Head Administrator"
+ job_head_administrator_plural:0 "Head Administrators"
+ job_head_administrator_desc:0 "Todo"
+ job_head_administrator_effect_desc:0 "£job_head_administrator£ $job_head_administrator_plural$ produce\n§G+3§! £unity£ §Y$unity$§! and\n§G+1§! £mod_country_admin_cap_add£ §YAdministrative Cap§!"
+ mod_job_head_administrator_add:0 "$job_head_administrator$ Jobs"
+ mod_job_head_administrator_per_pop:0 "§G+1§! $job_head_administrator$ Job per $VALUE$ Pops"
+ mod_job_head_administrator_per_pop_short:0 "\n§G+1§! £mod_job_head_administrator_add£ per $VALUE$ £pop£"
+
+ job_head_coordinator:0 "Head Coordinator"
+ job_head_coordinator_plural:0 "Head Coordinators"
+ job_head_coordinator_desc:0 "Todo"
+ job_head_coordinator_effect_desc:0 "£job_head_coordinator£ $job_head_coordinator_plural$ produce\n§G+3§! £unity£ §Y$unity$§! and\n§G+1§! £mod_country_admin_cap_add£ §YAdministrative Cap§!"
+ mod_job_head_coordinator_add:0 "$job_head_coordinator$ Jobs"
+ mod_job_head_coordinator_per_pop:0 "§G+1§! $job_head_coordinator$ Job per $VALUE$ Pops"
+ mod_job_head_coordinator_per_pop_short:0 "\n§G+1§! £mod_job_head_coordinator_add£ per $VALUE$ £pop£"

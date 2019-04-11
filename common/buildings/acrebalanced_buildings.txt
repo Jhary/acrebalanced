@@ -45,14 +45,14 @@ building_acrebalanced_tier1 = {
 	ai_weight = {
 		weight = 5
 	}
-  
+
   triggered_planet_modifier = {
 		potential = {
 	  	exists = owner
       owner = { is_gestalt = no }
 		}
 		modifier = {
-      job_administrator_add = 2
+      job_head_administrator_add = 2
 		}
 	}
 
@@ -62,7 +62,7 @@ building_acrebalanced_tier1 = {
 			owner = { is_gestalt = yes }					
 		}
 		modifier = {
-      job_coordinator_add = 3
+      job_head_coordinator_add = 3
 		}
 	}
 	
@@ -71,7 +71,7 @@ building_acrebalanced_tier1 = {
 			exists = owner
 			owner = { is_gestalt = no }
 		}
-		text = job_administrator_effect_desc
+		text = job_head_administrator_effect_desc
 	}
 	
 	triggered_desc = {
@@ -79,7 +79,7 @@ building_acrebalanced_tier1 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 		}
-		text = job_coordinator_effect_desc
+		text = job_head_coordinator_effect_desc
 	}	
 }
                                               
@@ -96,6 +96,10 @@ building_acrebalanced_tier2 = {
 
 	prerequisites = { 
 		"tech_building_acrebalanced_tier2" 
+	}
+
+	allow = {
+		has_major_upgraded_capital = yes
 	}
 
 	upgrades = {
@@ -128,7 +132,7 @@ building_acrebalanced_tier2 = {
       owner = { is_gestalt = no }
 		}
 		modifier = {
-      job_administrator_add = 4
+      job_head_administrator_add = 4
 		}
 	}
 
@@ -138,7 +142,7 @@ building_acrebalanced_tier2 = {
 			owner = { is_gestalt = yes }					
 		}
 		modifier = {
-      job_coordinator_add = 6
+      job_head_coordinator_add = 6
 		}
 	}
 	
@@ -147,7 +151,7 @@ building_acrebalanced_tier2 = {
 			exists = owner
 			owner = { is_gestalt = no }
 		}
-		text = job_administrator_effect_desc
+		text = job_head_administrator_effect_desc
 	}
 	
 	triggered_desc = {
@@ -155,7 +159,7 @@ building_acrebalanced_tier2 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 		}
-		text = job_coordinator_effect_desc
+		text = job_head_coordinator_effect_desc
 	}	
 }
 
@@ -210,7 +214,7 @@ building_acrebalanced_tier3 = {
           owner = { is_gestalt = no }
 		}
 		modifier = {
-      job_administrator_add = 8
+      job_head_administrator_add = 8
 		}
 	}
 
@@ -220,7 +224,7 @@ building_acrebalanced_tier3 = {
 			owner = { is_gestalt = yes }					
 		}
 		modifier = {
-      job_coordinator_add = 10
+      job_head_coordinator_add = 10
 		}
 	}
 	
@@ -229,7 +233,7 @@ building_acrebalanced_tier3 = {
 			exists = owner
 			owner = { is_gestalt = no }
 		}
-		text = job_administrator_effect_desc
+		text = job_head_administrator_effect_desc
 	}
 	
 	triggered_desc = {
@@ -237,7 +241,7 @@ building_acrebalanced_tier3 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 		}
-		text = job_coordinator_effect_desc
+		text = job_head_coordinator_effect_desc
 	}	
 }
 
@@ -288,7 +292,7 @@ building_acrebalanced_tier4 = {
       owner = { is_gestalt = no }
 		}
 		modifier = {
-      job_administrator_add = 12
+      job_head_administrator_add = 12
 		}
 	}
 
@@ -298,7 +302,7 @@ building_acrebalanced_tier4 = {
 			owner = { is_gestalt = yes }					
 		}
 		modifier = {
-          job_coordinator_add = 16
+          job_head_coordinator_add = 16
 		}
 	}
 	
@@ -307,7 +311,7 @@ building_acrebalanced_tier4 = {
 			exists = owner
 			owner = { is_gestalt = no }
 		}
-		text = job_administrator_effect_desc
+		text = job_head_administrator_effect_desc
 	}
 	
 	triggered_desc = {
@@ -315,6 +319,6 @@ building_acrebalanced_tier4 = {
 			exists = owner
 			owner = { is_gestalt = yes }
 		}
-		text = job_coordinator_effect_desc
+		text = job_head_coordinator_effect_desc
 	}	
 }

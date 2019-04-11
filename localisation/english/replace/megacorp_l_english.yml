@@ -1,4 +1,0 @@
-﻿l_english:
-
- job_administrator_effect_desc:0 "£job_administrator£ $job_administrator_plural$ produce\n§G+3§! £unity£ §Y$unity$§!,\n§G+1§! £mod_country_admin_cap_add£ §YAdministrative Cap§! and\n§G+8§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
- job_coordinator_effect_desc:0 "£job_coordinator£ $job_coordinator_plural$ produce\n§G+3§! £unity£ §Y$unity$§!,\n§G+1§! £mod_country_admin_cap_add£ §YAdministrative Cap§! and\n§G+3§! £society£ §Y$society_research$§!.\nThey need §R-3§! £energy£ §Y$energy$§! in upkeep"
