@@ -87,7 +87,7 @@ head_coordinator = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
 	building_icon = building_machine_capital
-	
+	icon = coordinator
 	possible = {
 		drone_job_check_trigger = yes
 	}	
@@ -126,7 +126,8 @@ concious_drone = {
 	category = complex_drone
 	condition_string = DRONE_JOB_TRIGGER
 	building_icon = building_hive_capital
-	
+	icon = synapse_drone
+
 	possible = {
 		drone_job_check_trigger = yes
 	}
