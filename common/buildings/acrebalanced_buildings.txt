@@ -1,0 +1,324 @@
+
+#############
+# Government buildings
+#############
+
+building_acrebalanced_tier1 = {
+	base_buildtime = 125
+	base_cap_amount = 1
+	category = government
+	
+	potential = {
+		exists = owner    
+    NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+	
+	allow = {
+		has_upgraded_capital = yes
+	}
+
+	prerequisites = { 
+		"tech_building_acrebalanced_tier1" 
+	}
+
+	upgrades = {
+		building_acrebalanced_tier2
+	}
+
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 200
+			energy = 40
+		}			
+		upkeep = {      
+			energy = 4      
+		}
+	}
+	
+#	country_modifier = {
+#		country_admin_cap_add = 4
+#		empire_size_penalty_mult = 0.01
+#	}
+  
+  triggered_planet_modifier = {
+		potential = {
+	  	exists = owner
+      owner = { is_gestalt = no }
+		}
+		modifier = {
+      job_administrator_add = 2
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }					
+		}
+		modifier = {
+      job_coordinator_add = 3
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_administrator_effect_desc
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_coordinator_effect_desc
+	}	
+
+	ai_weight = {
+		weight = 5
+	}
+}
+                                              
+building_acrebalanced_tier2 = {  
+	base_buildtime = 240	
+  can_build = no
+	category = government
+	
+	potential = {
+    exists = owner    
+    NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+
+	allow = {
+		has_upgraded_capital = yes
+	}
+	
+	prerequisites = { 
+		"tech_building_acrebalanced_tier2" 
+	}
+
+	upgrades = {
+		building_acrebalanced_tier3
+  }
+
+	resources = {
+		category = planet_buildings
+		cost = {
+      minerals = 400
+      energy = 160
+		}			
+		upkeep = {
+      energy = 16
+		}
+	}
+
+#  country_modifier = {
+#    country_admin_cap_add = 16
+#    empire_size_penalty_mult = 0.01
+#  }	
+	
+  triggered_planet_modifier = {
+		potential = {
+	    exists = owner
+      owner = { is_gestalt = no }
+		}
+		modifier = {
+      job_administrator_add = 4
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }					
+		}
+		modifier = {
+      job_coordinator_add = 6
+		}
+	}
+	
+		triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_administrator_effect_desc
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_coordinator_effect_desc
+	}	
+
+	ai_weight = {
+		weight = 4
+	}
+}
+
+building_acrebalanced_tier3 = {
+	base_buildtime = 340
+  can_build = no
+	category = government
+	
+	potential = {
+		exists = owner    
+    NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+	
+	allow = {
+		has_major_upgraded_capital = yes
+	}
+
+	prerequisites = { 
+		"tech_building_acrebalanced_tier3" 
+	} 
+
+	upgrades = {
+		building_acrebalanced_tier4
+  }
+ 	
+	resources = {
+		category = planet_buildings
+		cost = {
+      minerals = 600
+      energy = 320
+      exotic_gases = 4
+		}			
+		upkeep = {
+      exotic_gases = 2
+      energy = 32
+		}
+  }
+
+#  country_modifier = {
+#    country_admin_cap_add = 32
+#    empire_size_penalty_mult = 0.01
+#  }	
+	
+  triggered_planet_modifier = {
+		potential = {
+	      exists = owner
+          owner = { is_gestalt = no }
+		}
+		modifier = {
+      job_administrator_add = 8
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }					
+		}
+		modifier = {
+      job_coordinator_add = 10
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_administrator_effect_desc
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_coordinator_effect_desc
+	}	
+
+	ai_weight = {
+		weight = 2
+	}
+}
+
+
+building_acrebalanced_tier4 = {  
+	base_buildtime = 400
+  can_build = no
+	category = government
+	
+	potential = {
+		exists = owner    
+    NOT = { has_modifier = resort_colony }	
+		NOT = { has_modifier = slave_colony }
+	}
+	
+	allow = {
+		has_fully_upgraded_capital = yes
+	}
+
+	prerequisites = { 
+		"tech_building_acrebalanced_tier4" 
+	}  
+
+	resources = {
+		category = planet_buildings
+		cost = {
+      minerals = 800
+      energy = 640
+      exotic_gases = 8
+		}			
+		upkeep = {
+      exotic_gases = 4
+      energy = 64 
+		}
+	}
+	
+#  country_modifier = {
+#    country_admin_cap_add = 64    
+#  }
+	
+  triggered_planet_modifier = {
+		potential = {
+	    exists = owner
+      owner = { is_gestalt = no }
+		}
+		modifier = {
+      job_administrator_add = 12
+		}
+	}
+
+	triggered_planet_modifier = {
+		potential = {
+			exists = owner
+			owner = { is_gestalt = yes }					
+		}
+		modifier = {
+          job_coordinator_add = 16
+		}
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = no }
+		}
+		text = job_administrator_effect_desc
+	}
+	
+	triggered_desc = {
+		trigger = {
+			exists = owner
+			owner = { is_gestalt = yes }
+		}
+		text = job_coordinator_effect_desc
+	}	
+  
+	ai_weight = {
+		weight = 1
+	}
+}

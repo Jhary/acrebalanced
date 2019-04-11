@@ -1,0 +1,6 @@
+spriteTypes = {
+  spriteType = {
+    name = "gfx_starbase_building_acrebalanced_tier1"
+    texturefile = "mod/acrebalanced/gfx/interface/icons/modules/gfx_starbase_building_acrebalanced_tier1.dds"
+  }
+}

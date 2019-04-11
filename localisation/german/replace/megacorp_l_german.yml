@@ -1,0 +1,4 @@
+﻿l_german:
+
+ job_administrator_effect_desc:0 "£job_administrator£ $job_administrator_plural$ produzieren\n§G+3§! £unity£ §Y$unity$§!,\n§G+1§! £mod_country_admin_cap_add£ §YVerwaltungslimit§! und\n§G+8§! £mod_planet_amenities_add£ §Y$PLANET_AMENITIES_TITLE$§!"
+ job_coordinator_effect_desc:0 "£job_coordinator£ $job_coordinator_plural$ produzieren\n§G+3§! £unity£ §Y$unity$§!,\n§G+1§! £mod_country_admin_cap_add£ §YVerwaltungslimit§! und\n§G+3§! £society£ §Y$society_research$§!.\nSie benötigen §R-3§! £energy£ §Y$energy$§! als Unterhalt"

@@ -1,0 +1,129 @@
+
+tech_building_acrebalanced_tier1 = {
+  cost = @tier1cost2
+  area = society
+  tier = 1
+  category = { new_worlds }
+	prerequisites = { "tech_planetary_unification" }
+  weight = @tier1weight3
+	weight_modifier = {
+    factor = 4
+		modifier = {
+			factor = 5.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+		modifier = {
+			factor = 9.25
+			has_tradition = tr_expansion_adopt
+		}
+	}  
+  ai_weight = {
+		factor = 1
+		modifier = {
+			factor = 2.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	modifier = {
+		country_admin_cap_add = 5
+	}  
+}
+
+tech_building_acrebalanced_tier2 = {
+	cost = @tier2cost2
+	area = society
+  tier = 2
+
+	category = { new_worlds }
+	prerequisites = { "tech_building_acrebalanced_tier1" }
+	weight = @tier2weight2
+	
+	weight_modifier = {
+		factor = 3
+		modifier = {
+			factor = 4.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+    }
+		modifier = {
+			factor = 2.25
+			has_tradition = tr_expansion_adopt
+		}    
+	}
+	
+	ai_weight = {
+		factor = 10
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_new_worlds"
+			}
+		}
+	}
+	modifier = {
+		country_admin_cap_add = 5
+	}
+}
+tech_building_acrebalanced_tier3 = {
+	cost = @tier3cost1
+	area = society
+	tier = 3
+	category = { statecraft }
+	prerequisites = { "tech_building_acrebalanced_tier2" }
+	weight = @tier3weight1
+
+	
+	weight_modifier = {
+		factor = 1
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+		modifier = {
+			factor = 1.25
+			has_tradition = tr_expansion_adopt
+		}
+	}
+	
+	ai_weight = {
+		factor = 2
+		modifier = {
+			factor = 1.25
+			research_leader = {
+				area = society
+				has_trait = "leader_trait_expertise_statecraft"
+			}
+		}
+	}
+	modifier = {
+		country_admin_cap_add = 5
+	}
+}
+tech_building_acrebalanced_tier4 = {
+	cost = @tier4cost1
+	area = society
+	tier = 4
+	category = { statecraft }
+	prerequisites = { "tech_building_acrebalanced_tier3"  }
+	weight = @tier4weight1
+	is_rare = yes
+
+	weight_modifier = {
+		factor = 1.5
+  }
+	modifier = {
+		country_admin_cap_add = 5
+	}
+}

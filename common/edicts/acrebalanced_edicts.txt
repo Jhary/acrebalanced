@@ -1,0 +1,25 @@
+
+@EdictDuration = 5400
+@EdictCost = 300
+
+census_acrebalanced_edict1 = {
+	length = @EdictDuration
+	resources = {
+		category = edicts
+		cost = {
+			influence = @EdictCost
+		}
+	}
+
+	modifier = {    
+    empire_size_penalty_mult = -0.5
+	}
+	
+	prerequisites = {
+		"tech_building_acrebalanced_tier4"		
+	}
+	
+	ai_weight = {
+		weight = 0
+	}
+}
