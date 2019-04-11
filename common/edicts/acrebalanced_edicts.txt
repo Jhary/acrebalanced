@@ -1,6 +1,7 @@
 
 @EdictDuration = 5400
-@EdictCost = 300
+@EdictCost = 360
+@EdictModifier = -0.5
 
 census_acrebalanced_edict1 = {
 	length = @EdictDuration
@@ -12,7 +13,7 @@ census_acrebalanced_edict1 = {
 	}
 
 	modifier = {    
-    empire_size_penalty_mult = -0.5
+    empire_size_penalty_mult = @EdictModifier
 	}
 	
 	prerequisites = {
