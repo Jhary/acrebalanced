@@ -1,31 +1,31 @@
 ﻿l_german:
 
-building_acrebalanced_tier1:0 "Infrastrukturverwaltungsbüro"
-building_acrebalanced_tier1_desc:0 "Das §Y$building_acrebalanced_tier1$§! Das Amt ermöglicht es Ihnen, Ihrer Sozialforschung auf die Bevölkerungszahlen zu fokussieren, dies wiederum wird Ihre Verwaltungskapazität erheblich verbessern."
+building_acrebalanced_tier1:0 "Büro für Administrative Koordination"
+building_acrebalanced_tier1_desc:0 ""
 
-building_acrebalanced_tier2:0 "Expansions-Entwicklungsbüro"
-building_acrebalanced_tier2_desc:0 "Hellste Köpfe treffen auf modernste Technologie wodurch Administratoren Ergebnisse im Nanosekundenbereich erhalten, um Organisationen effizient zu betreiben."
+building_acrebalanced_tier2:0 "Bürokomplex für Administrative Koordination"
+building_acrebalanced_tier2_desc:0 ""
 
-building_acrebalanced_tier3:0 "Nationales Expansionsverwaltung"
-building_acrebalanced_tier3_desc:0 "Nutzung von Algorithmen und Ausrüstungen zum erleichtern erweiterter Expansion durch vorausschauende Analysen zum führen eines effizienteren Imperiums."
+building_acrebalanced_tier3:0 "Imperialer Verwaltungskomplex"
+building_acrebalanced_tier3_desc:0 ""
 
-building_acrebalanced_tier4:0 "Galaktische Expansionsoperation"
-building_acrebalanced_tier4_desc:0 "Expansion im galaktischen Maßstab unter Verwendung von Quantenblockketten in der Hypercloud."
+building_acrebalanced_tier4:0 "Erweiterter imperialer Verwaltungskomplex"
+building_acrebalanced_tier4_desc:0 ""
 
-sm_starbase_building_acrebalanced_tier1:0 "Interplanetarische Verwaltung"
-sm_starbase_building_acrebalanced_tier1_desc:0 "Bürokratie auf interplanetarer Systemebene mit Blick auf das große Ganze!"
+sm_starbase_building_acrebalanced_tier1:0 "Sternensystem-Verwaltung"
+sm_starbase_building_acrebalanced_tier1_desc:0 ""
 
-tech_building_acrebalanced_tier1:0 "Infrastrukturanalytik"
-tech_building_acrebalanced_tier1_desc:0 "Schaltet §Y$building_acrebalanced_tier1$§! frei. Was Ihre Verwaltungskapazität erhöht."
+tech_building_acrebalanced_tier1:0 "Administrative Koordination"
+tech_building_acrebalanced_tier1_desc:0 "Schaltet §Y$building_acrebalanced_tier1$§! und §Y$sm_starbase_building_acrebalanced_tier1$§! frei."
 
-tech_building_acrebalanced_tier2:0 "Strategische Expansionsentwicklung"
-tech_building_acrebalanced_tier2_desc:0 "Wenn die §Y$building_acrebalanced_tier1$§! zur §Y$building_acrebalanced_tier2$§! verbessert wird, wird das Ihre Verwaltungskapazität erhöhen."
+tech_building_acrebalanced_tier2:0 "Erweiterte Administrative Koordination"
+tech_building_acrebalanced_tier2_desc:0 "Upgrade: §Y$building_acrebalanced_tier1$§! zu §Y$building_acrebalanced_tier2$§!."
 
-tech_building_acrebalanced_tier3:0 "Nationale Expansionsverwaltung"
-tech_building_acrebalanced_tier3_desc:0 "Wenn die §Y$building_acrebalanced_tier2$§! zur §Y$building_acrebalanced_tier3$§! verbessert wird, wird das Ihre Verwaltungskapazität erhöhen."
+tech_building_acrebalanced_tier3:0 "Imperiale Koordination"
+tech_building_acrebalanced_tier3_desc:0 "Upgrade: §Y$building_acrebalanced_tier2$§! zu §Y$building_acrebalanced_tier3$§!."
 
-tech_building_acrebalanced_tier4:0 "Galaktische Expansionsoperation"
-tech_building_acrebalanced_tier4_desc:0 "Schaltet §Y$census_acrebalanced_edict1$§! frei. Wenn zusätzlich die Y$building_acrebalanced_tier3$§! zur §Y$building_acrebalanced_tier4$§! verbessert wird, wird das Ihre Verwaltungskapazität erhöhen."
+tech_building_acrebalanced_tier4:0 "Erweiterte Imperiale Koordination"
+tech_building_acrebalanced_tier4_desc:0 "Upgrade: §Y$building_acrebalanced_tier3$§! zu §Y$building_acrebalanced_tier4$§!\nSchaltet frei: §Y$census_acrebalanced_edict1$§!."
 
-edict_census_acrebalanced_edict1:0 "Galaktische Volkszählung"
+edict_census_acrebalanced_edict1:0 "Galaktischer Zensus"
 edict_census_acrebalanced_edict1_desc:0 "Reduziert drastisch die negativen Auswirkungen übermäßiger Reichsausbreitung."

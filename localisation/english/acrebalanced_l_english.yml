@@ -1,31 +1,31 @@
 ﻿l_english:
 
-building_acrebalanced_tier1:0 "Infrastructure Admin Office"
-building_acrebalanced_tier1_desc:0 "The §Y$building_acrebalanced_tier1$§! adds research toward cutting edge population metrics, which in turn gives you a slight boost to your administration capacity."
+building_acrebalanced_tier1:0 "Administrative Coordination Office"
+building_acrebalanced_tier1_desc:0 ""
 
-building_acrebalanced_tier2:0 "Expansion Development Office"
-building_acrebalanced_tier2_desc:0 "Brightest of minds converge with the most cutting edge technology that brings up-to-nanosecond results for administrators to efficiently run organizations."
+building_acrebalanced_tier2:0 "Expanded Administrative Coordination Office"
+building_acrebalanced_tier2_desc:0 ""
 
-building_acrebalanced_tier3:0 "National Expansion Administration"
-building_acrebalanced_tier3_desc:0 "Exploitation of algorithms and equipment to facilitate advanced expansion with predictive analytics for running a more efficient empire."
+building_acrebalanced_tier3:0 "Imperial Administration Office"
+building_acrebalanced_tier3_desc:0 ""
 
-building_acrebalanced_tier4:0 "Galactic Expansion Operations"
-building_acrebalanced_tier4_desc:0 "Expansion at a galactic scale using quantum blockchains in the hypercloud."
+building_acrebalanced_tier4:0 "Expanded Imperial Administration Office"
+building_acrebalanced_tier4_desc:0 ""
 
-sm_starbase_building_acrebalanced_tier1:0 "Interplanetary Administration"
-sm_starbase_building_acrebalanced_tier1_desc:0 "Interplanetary system level bureaucracy, with a stellar view!"
+sm_starbase_building_acrebalanced_tier1:0 "Systems Administration"
+sm_starbase_building_acrebalanced_tier1_desc:0 ""
 
-tech_building_acrebalanced_tier1:0 "Infrastructure Analytics"
-tech_building_acrebalanced_tier1_desc:0 "Along with a modest admin-cap boost, it unlocks the §Y$building_acrebalanced_tier1$§! planetary building, and the §Y$sm_starbase_building_acrebalanced_tier1$§! starbase module - both of which increase administration capacity."
+tech_building_acrebalanced_tier1:0 "Administrative Coordination"
+tech_building_acrebalanced_tier1_desc:0 "Unlocks §Y$building_acrebalanced_tier1$§! planetary building, and §Y$sm_starbase_building_acrebalanced_tier1$§!."
 
-tech_building_acrebalanced_tier2:0 "Strategic Expansion Development"
-tech_building_acrebalanced_tier2_desc:0 "Increases administration capacity, and allows the upgrade of §Y$building_acrebalanced_tier1$§! to §Y$building_acrebalanced_tier2$§! which increases your administration capacity."
+tech_building_acrebalanced_tier2:0 "Expanded Administrative Coordination"
+tech_building_acrebalanced_tier2_desc:0 "Upgrade: §Y$building_acrebalanced_tier1$§! to §Y$building_acrebalanced_tier2$§!."
 
-tech_building_acrebalanced_tier3:0 "National Expansion Administration"
-tech_building_acrebalanced_tier3_desc:0 "Along with a modest admin-cap boost, it allows the upgrade of §Y$building_acrebalanced_tier2$§! to §Y$building_acrebalanced_tier3$§! which increases your administration capacity."
+tech_building_acrebalanced_tier3:0 "Imperial Administration"
+tech_building_acrebalanced_tier3_desc:0 "Upgrade: §Y$building_acrebalanced_tier2$§! to §Y$building_acrebalanced_tier3$§!."
 
-tech_building_acrebalanced_tier4:0 "Galactic Expansion Operations"
-tech_building_acrebalanced_tier4_desc:0 "Unlocks §Y$edict_census_acrebalanced_edict1$§!, applies a modest admin-cap boost, and allows the upgrade of Y$building_acrebalanced_tier3$§! to §Y$building_acrebalanced_tier4$§! which increases your administration capacity."
+tech_building_acrebalanced_tier4:0 "Expanded Imperial Administration"
+tech_building_acrebalanced_tier4_desc:0 "Upgrade: §Y$building_acrebalanced_tier3$§! to §Y$building_acrebalanced_tier4$§!\nUnlocks §Y$edict_census_acrebalanced_edict1$§!."
 
 edict_census_acrebalanced_edict1:0 "Galactic Census"
 edict_census_acrebalanced_edict1_desc:0 "Drastically reduces the negative effects of excessive sprawl."

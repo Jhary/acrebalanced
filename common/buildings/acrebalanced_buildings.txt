@@ -4,7 +4,7 @@
 #############
 
 building_acrebalanced_tier1 = {
-	base_buildtime = 125
+	base_buildtime = 360
 	base_cap_amount = 1
 	category = government
 	
@@ -29,8 +29,8 @@ building_acrebalanced_tier1 = {
 	resources = {
 		category = planet_buildings
 		cost = {
-			minerals = 200
-			energy = 40
+			minerals = 500
+			energy = 100
 		}			
 		upkeep = {      
 			energy = 4      
@@ -41,6 +41,10 @@ building_acrebalanced_tier1 = {
 #		country_admin_cap_add = 4
 #		empire_size_penalty_mult = 0.01
 #	}
+
+	ai_weight = {
+		weight = 5
+	}
   
   triggered_planet_modifier = {
 		potential = {
@@ -77,14 +81,10 @@ building_acrebalanced_tier1 = {
 		}
 		text = job_coordinator_effect_desc
 	}	
-
-	ai_weight = {
-		weight = 5
-	}
 }
                                               
 building_acrebalanced_tier2 = {  
-	base_buildtime = 240	
+	base_buildtime = 360	
   can_build = no
 	category = government
 	
@@ -94,10 +94,6 @@ building_acrebalanced_tier2 = {
 		NOT = { has_modifier = slave_colony }
 	}
 
-	allow = {
-		has_upgraded_capital = yes
-	}
-	
 	prerequisites = { 
 		"tech_building_acrebalanced_tier2" 
 	}
@@ -109,11 +105,11 @@ building_acrebalanced_tier2 = {
 	resources = {
 		category = planet_buildings
 		cost = {
-      minerals = 400
-      energy = 160
+      minerals = 750
+      energy = 150
 		}			
 		upkeep = {
-      energy = 16
+      energy = 8
 		}
 	}
 
@@ -121,6 +117,10 @@ building_acrebalanced_tier2 = {
 #    country_admin_cap_add = 16
 #    empire_size_penalty_mult = 0.01
 #  }	
+
+	ai_weight = {
+		weight = 4
+	}
 	
   triggered_planet_modifier = {
 		potential = {
@@ -157,14 +157,10 @@ building_acrebalanced_tier2 = {
 		}
 		text = job_coordinator_effect_desc
 	}	
-
-	ai_weight = {
-		weight = 4
-	}
 }
 
 building_acrebalanced_tier3 = {
-	base_buildtime = 340
+	base_buildtime = 360
   can_build = no
 	category = government
 	
@@ -173,14 +169,14 @@ building_acrebalanced_tier3 = {
     NOT = { has_modifier = resort_colony }	
 		NOT = { has_modifier = slave_colony }
 	}
-	
-	allow = {
-		has_major_upgraded_capital = yes
-	}
 
 	prerequisites = { 
 		"tech_building_acrebalanced_tier3" 
 	} 
+
+	allow = {
+		has_fully_upgraded_capital = yes
+	}
 
 	upgrades = {
 		building_acrebalanced_tier4
@@ -189,13 +185,13 @@ building_acrebalanced_tier3 = {
 	resources = {
 		category = planet_buildings
 		cost = {
-      minerals = 600
-      energy = 320
+      minerals = 1000
+      energy = 200
       exotic_gases = 4
 		}			
 		upkeep = {
       exotic_gases = 2
-      energy = 32
+      energy = 16
 		}
   }
 
@@ -204,6 +200,10 @@ building_acrebalanced_tier3 = {
 #    empire_size_penalty_mult = 0.01
 #  }	
 	
+	ai_weight = {
+		weight = 2
+	}
+
   triggered_planet_modifier = {
 		potential = {
 	      exists = owner
@@ -239,15 +239,11 @@ building_acrebalanced_tier3 = {
 		}
 		text = job_coordinator_effect_desc
 	}	
-
-	ai_weight = {
-		weight = 2
-	}
 }
 
 
 building_acrebalanced_tier4 = {  
-	base_buildtime = 400
+	base_buildtime = 720
   can_build = no
 	category = government
 	
@@ -268,8 +264,8 @@ building_acrebalanced_tier4 = {
 	resources = {
 		category = planet_buildings
 		cost = {
-      minerals = 800
-      energy = 640
+      minerals = 1500
+      energy = 500
       exotic_gases = 8
 		}			
 		upkeep = {
@@ -281,6 +277,10 @@ building_acrebalanced_tier4 = {
 #  country_modifier = {
 #    country_admin_cap_add = 64    
 #  }
+
+	ai_weight = {
+		weight = 1
+	}
 	
   triggered_planet_modifier = {
 		potential = {
@@ -317,8 +317,4 @@ building_acrebalanced_tier4 = {
 		}
 		text = job_coordinator_effect_desc
 	}	
-  
-	ai_weight = {
-		weight = 1
-	}
 }
